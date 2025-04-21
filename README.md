@@ -1,14 +1,7 @@
 # Backdoor Detection and Removal Challenge
 
-Welcome to the Backdoor Detection and Removal Challenge! This challenge is designed to test your skills in identifying, analyzing, and removing backdoors from a compromised system. Follow the instructions below to get started.
-
-## Challenge Overview
-
-In this challenge, you will be provided with a compromised system that contains a hidden backdoor. Your task is to:
-
-1. Identify the backdoor.
-2. Analyze its behavior and impact.
-3. Remove the backdoor without disrupting the normal functionality of the system.
+An attacker exploited a Remote Code Execution (RCE) vulnerability on the website running on port 80 and placed a backdoor.
+The Blue Team has already patched the RCE vulnerability, but the backdoor remains active. Your mission is to:
 
 ## Getting Started
 
@@ -22,3 +15,4 @@ To begin the challenge, follow these steps:
    ```bash
    ./start_demo.sh
    ```
+
