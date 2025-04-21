@@ -1,7 +1,7 @@
 # Backdoor Detection and Removal Challenge
 
 An attacker exploited a Remote Code Execution (RCE) vulnerability on the website running on port 80 and placed a backdoor.
-The Blue Team has already patched the RCE vulnerability, but the backdoor remains active. Your mission is to:
+The Blue Team has already patched the RCE vulnerability, but the backdoor remains active. Your mission is to find and remove the backdoor.
 
 ## Getting Started
 
@@ -15,4 +15,4 @@ To begin the challenge, follow these steps:
    ```bash
    ./start_demo.sh
    ```
-
+[actual readme](README2.md) (please don't click if you want to do the chall)
