@@ -15,4 +15,10 @@ To begin the challenge, follow these steps:
    ```bash
    ./start_demo.sh
    ```
-[actual readme](README2.md) (please don't click if you want to do the chall)
+<details>
+  <summary>Spoiler warning</summary>
+  (please don't click if you want to do the chall)
+   
+[actual readme](README2.md)
+
+</details>
