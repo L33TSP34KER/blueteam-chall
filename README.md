@@ -3,6 +3,10 @@
 An attacker exploited a Remote Code Execution (RCE) vulnerability on the website running on port 80 and placed a backdoor.
 The Blue Team has already patched the RCE vulnerability, but the backdoor remains active. Your mission is to find and remove the backdoor.
 
+## Requirments
+- rust (cargo)
+- docker
+
 ## Getting Started
 
 To begin the challenge, follow these steps:
